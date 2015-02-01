@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4120635-97D8-CACA-A635-690A5382FBBB" name="MD TABLEACTIONTYPE">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>76E3737A-275B-F400-C89F-FAE14C4244CF</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B11CE3E1-34A5-2B84-B0EA-42BFD81157C6">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>9679028C-59B2-58A7-3656-CF9D229301C7</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="CODE" id="8712F228-5AED-FFF4-CEA1-E592EEBB2B06">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>3D79A41E-B3B0-1803-555D-34BA02411787</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="NAME" id="2537364C-750D-0C33-06D2-66525BD6E21D">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>400EF4F4-ABA2-BA38-B216-846258F9969D</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EBAD77AF-B4DB-4A92-C6FD-95E5BF746E43" name="MD TABLEACTIONTYPE PK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>FA1B1E07-25CF-3BC9-7581-E8B2565AA629</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B11CE3E1-34A5-2B84-B0EA-42BFD81157C6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C6BD4816-4C7A-55A8-5A92-7CA90CDCAC39" name="MD TABLEACTIONTYPE CODe UN">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>E575E941-8450-2339-535D-0D644E07321D</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>8712F228-5AED-FFF4-CEA1-E592EEBB2B06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

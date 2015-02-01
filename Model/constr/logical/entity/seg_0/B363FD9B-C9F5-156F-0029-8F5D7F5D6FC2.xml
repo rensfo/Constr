@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B363FD9B-C9F5-156F-0029-8F5D7F5D6FC2" name="MD MAINMENU">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>5952D56D-B91B-8520-9173-A948F3CD2958</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="4780B164-66A7-B81A-2879-C9E95B481C49">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>50F5432E-B6C7-9BCC-B298-D51926402D4D</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="IDPARENT" id="AF2F9A82-7724-707E-FBDE-8F479B0B5CC2">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>54149B3C-81B8-0B33-463A-D1B58C87BAD1</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4780B164-66A7-B81A-2879-C9E95B481C49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="CODE" id="BAB37106-040A-E458-2037-DA91198EFEBA">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>782E6D77-ABE1-6E16-7CB5-6BBAB0DDFA35</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="NAME" id="37DA1D77-DE78-8E85-2D5E-2B636893DD0F">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>15610CB2-D09F-862C-1CA9-F70537512015</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DFF33D19-F588-DD99-9CB2-6A1FDEC831E0" name="MD MAINMENU PK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>12A983E7-69AD-CAAB-F491-DC502041F492</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4780B164-66A7-B81A-2879-C9E95B481C49</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B04F7F56-0600-9BF8-917A-33C86F7A9324" name="MD MAINMENU CODE UN">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>7D009098-8EBF-323D-E574-0DFA9389C8FD</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>BAB37106-040A-E458-2037-DA91198EFEBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

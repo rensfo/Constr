@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="A9DF1EA8-33E1-8584-841F-D1A9BCFD2550" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="0E40734E-0C1C-00D7-4C7D-29AE3278C0DD" name="TEST" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="18EE40EB-A3D0-3B42-C757-38ABA382C42C" name="MD_DATATYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="3092B46D-7107-0C9D-4BC8-3C02C1DA6115" name="MD_MAINMENUACTION" seqName="seg_0"/>
+   <object objectType="Table" objectID="40056A58-F0EF-38A5-89E8-5AFDD03C6B37" name="MD_OBJVIEWCON" seqName="seg_0"/>
+   <object objectType="Table" objectID="46D4C89B-B9E8-023B-4BA7-C0888F1D82E3" name="STD_CATALOG" seqName="seg_0"/>
+   <object objectType="Table" objectID="509C898D-6C50-AA7A-DF1F-311257CA104F" name="MD_ObjFrmView" seqName="seg_0"/>
+   <object objectType="Table" objectID="5952D56D-B91B-8520-9173-A948F3CD2958" name="MD_MAINMENU" seqName="seg_0"/>
+   <object objectType="Table" objectID="86631C44-9E56-76B7-1AD4-5EBFD4CB41DE" name="MD_COL" seqName="seg_0"/>
+   <object objectType="Table" objectID="8B63DB03-F72D-4B0B-0B1D-D5F8DA2D4716" name="MD_OBJACT" seqName="seg_0"/>
+   <object objectType="Table" objectID="99B7708D-F0EE-E81F-F4A0-B9466A987B19" name="MD_OBJVIEWCOL" seqName="seg_0"/>
+   <object objectType="Table" objectID="9BC3146E-5B73-C88A-5C38-DEC20D58E107" name="MD_DOMAIN" seqName="seg_0"/>
+   <object objectType="Table" objectID="9D70C875-1276-6E08-C11B-46956940DDF6" name="MD_ACTIONTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="A82ED748-2101-4897-240E-291933468ABE" name="MD_OBJ" seqName="seg_0"/>
+   <object objectType="Table" objectID="B1EF7F75-087D-23F2-E3A5-6E04F3D1BD9C" name="MD_OBJCOL" seqName="seg_0"/>
+   <object objectType="Table" objectID="B9418C19-F09C-1379-63DF-0509325807EE" name="MD_ObjFrmViewCol" seqName="seg_0"/>
+   <object objectType="Table" objectID="D2C51995-7C67-B424-F9D3-84828A4AFC6E" name="MD_OBJVIEWACT" seqName="seg_0"/>
+   <object objectType="Table" objectID="D9FB76CF-7155-B794-87B4-8E2D67F3678A" name="MD_OBJFRM" seqName="seg_0"/>
+   <object objectType="Table" objectID="DD114961-1132-23ED-E976-621B0C84F988" name="MD_OBJVIEW" seqName="seg_0"/>
+   <object objectType="Table" objectID="E316528C-6BE5-0300-43E3-CA72F5234106" name="MD_OBJVIEWCONCOL" seqName="seg_0"/>
+   <object objectType="Segment" objectID="7B7D55A7-E9AF-BD70-F088-71E198DD9245" name="Storage16" seqName="seg_0"/>
+   <object objectType="Segment" objectID="FB51AD76-F872-A7DC-90EF-692A9A9BDCC9" name="Storage1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

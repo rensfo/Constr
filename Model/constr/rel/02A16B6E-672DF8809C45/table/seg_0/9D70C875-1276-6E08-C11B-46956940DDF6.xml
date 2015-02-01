@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D70C875-1276-6E08-C11B-46956940DDF6" name="MD_ACTIONTYPE">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>TEST</sourceObjSchema>
+<sourceObjName>MD_MAINMENUACTIONTYPE</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<commentInRDBMS>Тип действий</commentInRDBMS>
+<ownerDesignName>constr</ownerDesignName>
+<schemaObject>5512689D-4E0D-4FFA-1088-5283B5C88EEE</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9679028C-59B2-58A7-3656-CF9D229301C7">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_TABLEACTIONTYPE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>ID</comment>
+<ownerDesignName>constr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="3D79A41E-B3B0-1803-555D-34BA02411787">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_TABLEACTIONTYPE</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Код</comment>
+<ownerDesignName>constr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="400EF4F4-ABA2-BA38-B216-846258F9969D">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_TABLEACTIONTYPE</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Наименование</comment>
+<ownerDesignName>constr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4B627B4-EAD2-DF60-21DA-B844EF061615" name="MD_ACTIONTYPE_PK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:59:21 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9679028C-59B2-58A7-3656-CF9D229301C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CF4A644-F710-93DC-E399-2BB6D4610C9F" name="MD_ACTIONTYPE_CODE_UN">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:59:30 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D79A41E-B3B0-1803-555D-34BA02411787"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC62E4F0-AE05-A9A1-41A6-96924781D83D" name="MD_ACTIONTYPE_CODE_IDX">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:59:49 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9679028C-59B2-58A7-3656-CF9D229301C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

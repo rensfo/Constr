@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MD_OBJCOL" directorySegmentName="seg_0" id="B1EF7F75-087D-23F2-E3A5-6E04F3D1BD9C">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<schemaObject>5512689D-4E0D-4FFA-1088-5283B5C88EEE</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FB51AD76-F872-A7DC-90EF-692A9A9BDCC9</segment>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MD_OBJCOL_IDTABLE_IDX" id="15691853-AC2E-B5AD-1CD3-8687EED02B00">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:15:57 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MD_OBJCOL_IDDOMAIN_IDX" id="2754F8DB-4FD1-CBB9-332C-6B478D10BF05">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:15:57 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MD_OBJCOL_IDCOL_IDX" id="E25E9A3C-8996-1BEE-36F9-E55F1419BD58">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-21 08:29:10 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="0DC22A10-09D0-7ED1-39D2-C55C236CC2A0">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDCOL" id="1B68EAD2-92DA-A66A-0656-2D64D0EC75F5">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-21 08:28:22 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDOBJ" id="76E0D840-F236-2C3B-CCB6-3986416ADB1B">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDDOMAIN" id="C781CCC4-358A-89B7-44D8-6C1F99FA23E2">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MD_TABLECOLUMN_MD_DOMAIN_FK" id="22F9F5B2-3291-C2D8-FE6F-1D7FFFC7AE03">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:15:11 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MD_TABLECOLUMN_MD_TABLE_FK" id="6C48881C-D23C-DDE0-24BD-B59C3AAE073A">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:15:11 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MD_OBJCOL_MD_COL_FK" id="891939D1-58FB-A2B7-BAE6-F9E951632000">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-21 08:28:41 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MD_TABLECOLUMN_PK" id="BBC6BEFB-4C10-ECF8-A64E-DF73C9F087F0">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:14:30 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

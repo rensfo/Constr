@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2C51995-7C67-B424-F9D3-84828A4AFC6E" name="MD_OBJVIEWACT">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>TEST</sourceObjSchema>
+<sourceObjName>MD_VIEWACTION</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Действия представления</comment>
+<commentInRDBMS>Действия бизнес-объекта</commentInRDBMS>
+<ownerDesignName>constr</ownerDesignName>
+<schemaObject>5512689D-4E0D-4FFA-1088-5283B5C88EEE</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="89A67D8E-BF47-0B94-0A9D-9C5DB66CE5AC">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_VIEWACTION</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>ID</comment>
+<ownerDesignName>constr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDOBJACT" id="DF68E65C-DD49-7518-81BA-8B5A01A19985">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_VIEWACTION</sourceObjSchema>
+<sourceObjName>IDTABLEACTION</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Действия бизнес-объекта</comment>
+<ownerDesignName>constr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>86352A6F-21B0-0D6E-DE69-FFC2DA75FF94</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28497472-6D7A-A726-F362-7549708F2C84" referredColumn="86352A6F-21B0-0D6E-DE69-FFC2DA75FF94"/>
+</associations>
+</Column>
+<Column name="IDOBJVIEW" id="1A0F2907-9B01-D440-2C3E-C88D4C41F74D">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_VIEWACTION</sourceObjSchema>
+<sourceObjName>IDTABLEVIEW</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Представление</comment>
+<ownerDesignName>constr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>549E1C53-DE08-F8FF-A3B1-1A136854D27B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB14D722-F203-6821-0C16-010E9EC699CF" referredColumn="549E1C53-DE08-F8FF-A3B1-1A136854D27B"/>
+</associations>
+</Column>
+<Column name="NORDER" id="2E03D9F4-E4A5-26B0-84AE-50D6D8BC66B7">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_VIEWACTION</sourceObjSchema>
+<sourceObjName>NORDER</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Порядок</comment>
+<ownerDesignName>constr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBDE1D0D-CA8C-B2E7-84C9-1673BDD9EA9F" name="MD_VIEWACTION_PK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:20:58 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89A67D8E-BF47-0B94-0A9D-9C5DB66CE5AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33B1CA7B-548C-7169-F106-D85E2FB5755E" name="MD_VIEWACT_IDTABLEVIEW_IDX">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:22:23 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A0F2907-9B01-D440-2C3E-C88D4C41F74D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D83ED4EF-F3EC-9D3B-C4B8-75DBBC40CC10" name="MD_VIEWACT_IDTABACT_IDX">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:22:23 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF68E65C-DD49-7518-81BA-8B5A01A19985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B26BB39-0D06-B1C3-F90C-BE1F53F6F835" name="MD_VIEWACT_MD_TABVIEW_FK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:21:23 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A0F2907-9B01-D440-2C3E-C88D4C41F74D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0F4F266-9F2C-E8F0-8E0D-3ECE07A2807A" name="MD_VIEWACT_MD_TABACT_FK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:21:41 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF68E65C-DD49-7518-81BA-8B5A01A19985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

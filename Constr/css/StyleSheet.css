@@ -1,0 +1,12 @@
+﻿#mainmenu {
+		position:relative;
+		z-index:9999;
+		width:auto;
+	}
+	#mainmenu ul {
+		width:12em; /* fixed width only please - you can use the "subMenusMinWidth"/"subMenusMaxWidth" script options to override this if you like */
+	}
+
+#workpalce {
+    width: 100%;
+}

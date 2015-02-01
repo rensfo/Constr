@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="096EDCAE-9058-F844-BECD-C70F5537EF29" name="MD TABLEACTION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0D428ACA-39ED-D848-44E2-BEB6283D4B9D" name="MD MAINMENUACTION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1931AB91-0564-A5C1-1F5F-87C8BFA08FAD" name="MD VIEWCOLUMN" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2C4B4239-1CB8-17C6-9D6A-AFB56770F174" name="MD TABLECOLUMN" seqName="seg_0"/>
+   <object objectType="Entity" objectID="635C9A0A-BE5A-60DE-B909-FD0E18FAB335" name="MD VIEWCONSTRAINT" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6D6B3707-2C3A-4CB4-6C35-D166BC7D1EF5" name="STD CATALOG" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6FA1B091-DFC3-6E0E-74EA-2A08EF921650" name="MD VIEWCONSTRAINTREFCOLUMN" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6FCD713C-FE01-1891-4503-99F18CC48190" name="MD TABLEVIEW" seqName="seg_0"/>
+   <object objectType="Entity" objectID="71F06BBE-7763-77E9-9223-B344AADC5B92" name="MD DOMAIN" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8A8BEAD0-5D16-7EA7-0399-47885A69665C" name="MD DATATYPE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A309AC14-57B8-FBB9-3B58-8EEB6BD67CA3" name="MD TABLE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B363FD9B-C9F5-156F-0029-8F5D7F5D6FC2" name="MD MAINMENU" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C84ED136-21A7-3A3D-2E9A-14BA85603099" name="MD VIEWACTION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D4120635-97D8-CACA-A635-690A5382FBBB" name="MD TABLEACTIONTYPE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F77CD978-0C35-59C0-13CC-FB57AE089A89" name="MD MAINMENUACTIONTYPE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0C1EB11E-4EAE-B8F4-1A26-FACF39DF6A80" name="MD_TABLE_STD_CATALOG_TABLECATALOG_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0F51E6D8-883B-7BC8-972E-90858236E215" name="MD_TABLECOLUMN_MD_TABLE_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="13127A19-6ED1-DB9B-745C-D03367129F76" name="MD_TABLE_MD_TABLE_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1CC933C9-F23F-2256-DC50-E7140383533F" name="MD_TABLEACTION_MD_TABLE_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="25BDC2FA-42EE-5978-B2AE-A6D5933F677C" name="MD_VIEWACTION_MD_TABLEVIEW_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3CAFC030-46DD-A7A7-E2CE-703467412684" name="MD_VIEWCOLUMN_MD_TABLEVIEW_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3ED257DB-05D7-CE25-F71D-759445675F33" name="MD_TABLEVIEW_MD_TABLEVIEW_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4795EF38-B648-8CB3-97BD-240BBEC7C1B5" name="MD_VIEWACTION_MD_TABLEACTION_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4E53C4FC-6D2C-1A52-59FF-1EF0BA61C6F1" name="MD_VIEWCONSTRAINT_MD_VIEWCOLUMN_IDVIEWREFCOLUMN_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="54149B3C-81B8-0B33-463A-D1B58C87BAD1" name="MD_MAINMENU_MD_MAINMENU_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5D28B2E8-1168-1ED5-2685-F988EC88A10F" name="MD_VIEWCOLUMN_MD_DOMAIN_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="74B12481-8A97-D995-E537-6F6EB6CD7ECC" name="MD_TABLECOLUMN_MD_DOMAIN_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="896244E6-C858-2C66-4C24-6D37A7E748C7" name="MD_MAINMENUACTION_MD_MAINMENU_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="931DD5E7-5D06-07FA-1368-8ADE26638F36" name="MD_TABLEVIEW_STD_CATALOG_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="96F90E8B-4C08-FCC8-7D23-637BBA6781B2" name="MD_DOMAIN_MD_DATATYPE_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="98A78551-37FA-15C9-41EB-A44D88CDD3CC" name="MD_TABLEVIEW_MD_TABLE_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9F80CC89-AA78-56B6-77DD-DE250B0D4F46" name="MD_VIEWCONSTRAINTREFCOLUMN_MD_VIEWCONSTRAINT_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A92F8DF6-EE45-E853-ED5A-FB1BB5C32E62" name="MD_TABLE_STD_CATALOG_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AC5EF699-D9BC-1F62-D698-B310035283B7" name="MD_VIEWCONSTRAINT_MD_TABLEVIEW_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C605EF34-3102-01A1-F17E-AF2A2A259507" name="STD_CATALOG_STD_CATALOG_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CAB582C2-332F-2F41-9CCE-206C6F5CE1E5" name="MD_TABLEACTION_MD_TABLEACTIONTYPE_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E3BDBD12-2365-98E6-09BD-CD1EBE13A582" name="MD_VIEWCONSTRAINT_MD_VIEWCOLUMN_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E4C7854E-7B08-2D57-4372-9BC9D30022DD" name="MD_MAINMENUACTION_MD_MAINMENUACTIONTYPE_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MD_VIEWCONSTRAINTREFCOLUMN_MD_VIEWCONSTRAINT_FK" directorySegmentName="seg_0" id="9F80CC89-AA78-56B6-77DD-DE250B0D4F46">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:34:41 UTC</createdTime>
+<generatorID>92DC698D-61A7-A2ED-24A3-83C9F54627FA</generatorID>
+<ownerDesignName>constr</ownerDesignName>
+<engineerTo>
+<item key="02A16B6E-2C4E-8E7C-00F6-672DF8809C45" value="true"/>
+</engineerTo>
+<sourcePk>77EF5CCA-68DF-1C89-E9EB-1AB4D32C18C2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>635C9A0A-BE5A-60DE-B909-FD0E18FAB335</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6FA1B091-DFC3-6E0E-74EA-2A08EF921650</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

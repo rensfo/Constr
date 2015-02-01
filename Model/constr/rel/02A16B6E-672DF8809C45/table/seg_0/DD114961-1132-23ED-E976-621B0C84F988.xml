@@ -1,0 +1,217 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD114961-1132-23ED-E976-621B0C84F988" name="MD_OBJVIEW">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>TEST</sourceObjSchema>
+<sourceObjName>MD_TABLEVIEW</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Представление бизнес-объекта</comment>
+<commentInRDBMS>Представления бизнес-объекта</commentInRDBMS>
+<ownerDesignName>constr</ownerDesignName>
+<schemaObject>5512689D-4E0D-4FFA-1088-5283B5C88EEE</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="549E1C53-DE08-F8FF-A3B1-1A136854D27B">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_TABLEVIEW</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>ID</comment>
+<ownerDesignName>constr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDOBJ" id="9C8D6B77-71CC-B9FD-10E2-9EB85D2C7C18">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_TABLEVIEW</sourceObjSchema>
+<sourceObjName>IDTABLE</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Бизнес-объект</comment>
+<ownerDesignName>constr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>09B95109-DAB7-8BDF-06B7-4A48B29C6EDF</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7D23B52-70D1-698A-E41D-B4E2D13B62CC" referredColumn="09B95109-DAB7-8BDF-06B7-4A48B29C6EDF"/>
+</associations>
+</Column>
+<Column name="VIEWNAME" id="3D075053-9628-1D74-6908-D6C42C430838">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_TABLEVIEW</sourceObjSchema>
+<sourceObjName>VIEWNAME</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Наименование представления</comment>
+<ownerDesignName>constr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="B9B4FBAE-AA7B-C211-4328-939BE2C670BB">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_TABLEVIEW</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Код</comment>
+<ownerDesignName>constr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="26D7591B-A8CB-A414-C590-44EA3596B179">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_TABLEVIEW</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Наименование</comment>
+<ownerDesignName>constr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDPARENT" id="0750C76F-BC07-7005-38A4-1509211CE1BF">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_TABLEVIEW</sourceObjSchema>
+<sourceObjName>IDPARENT</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Родительское представление</comment>
+<ownerDesignName>constr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>549E1C53-DE08-F8FF-A3B1-1A136854D27B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="068AD83D-FD4B-AC2F-3427-E3BCA258299B" referredColumn="549E1C53-DE08-F8FF-A3B1-1A136854D27B"/>
+</associations>
+</Column>
+<Column name="IDVIEWCATALOG" id="5AAB8FC9-EE58-6A84-59C2-3023118B6886">
+<sourceConnName>spbesTest</sourceConnName>
+<sourceObjSchema>MD_TABLEVIEW</sourceObjSchema>
+<sourceObjName>IDVIEWCATALOG</sourceObjName>
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<comment>Представление для отображения каталогов</comment>
+<ownerDesignName>constr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>549E1C53-DE08-F8FF-A3B1-1A136854D27B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7357D305-0B60-444E-D903-8B2136C3FB45" referredColumn="549E1C53-DE08-F8FF-A3B1-1A136854D27B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBE4BEDA-3E80-509C-BA70-5C4581F476E0" name="MD_TABLEVIEW_PK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:17:01 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="549E1C53-DE08-F8FF-A3B1-1A136854D27B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D28C96BA-ADC0-A62D-D27D-BF2073AA71B1" name="MD_TABLEVIEW_CODE_UN">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:18:11 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9B4FBAE-AA7B-C211-4328-939BE2C670BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2F70F4A-4C48-C9E1-1196-2B161FC8D1CA" name="MD_TABLEVIEW_CODE_IDX">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:18:22 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9B4FBAE-AA7B-C211-4328-939BE2C670BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3B63869-F8E4-33B1-DF3F-A758675D37BB" name="MD_TABLEVIEW_IDTABLE_IDX">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:18:36 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C8D6B77-71CC-B9FD-10E2-9EB85D2C7C18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED574FDA-404E-67BB-2362-96B32095E7CA" name="MD_TABLEVIEW_IDPARENT_IDX">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:19:16 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0750C76F-BC07-7005-38A4-1509211CE1BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19F83BE2-3DF1-31D8-33DF-CB44D6C8D577" name="MD_TABLEVIEW_IDVIEWCATALOG_IDX">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:19:16 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AAB8FC9-EE58-6A84-59C2-3023118B6886"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2C46D66-8DC0-EA43-2A97-D70022152FF5" name="MD_TABLEVIEW_MD_TABLEVIEW_FK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:17:14 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0750C76F-BC07-7005-38A4-1509211CE1BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A13A3BFB-9B7E-80FD-DFA9-2BB175FB7F91" name="MD_TABLEVIEW_MD_TABLE_FK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:17:29 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C8D6B77-71CC-B9FD-10E2-9EB85D2C7C18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="724EC150-D34E-A1D2-EF15-B17C2E7D456E" name="MD_TABLEVIEW_MD_TABLEVIEW_FKv2">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:17:59 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AAB8FC9-EE58-6A84-59C2-3023118B6886"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="509C898D-6C50-AA7A-DF1F-311257CA104F" name="MD_ObjFrmView">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:56:07 UTC</createdTime>
+<commentInRDBMS>Элементы формы</commentInRDBMS>
+<ownerDesignName>constr</ownerDesignName>
+<schemaObject>5512689D-4E0D-4FFA-1088-5283B5C88EEE</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="752CE8C4-AD53-396E-993B-3F089FB776B3">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:58:43 UTC</createdTime>
+<commentInRDBMS>ID</commentInRDBMS>
+<ownerDesignName>constr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDObjFrm" id="A1941398-9BEC-20F0-E411-9AE15B286744">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:58:43 UTC</createdTime>
+<commentInRDBMS>Форма</commentInRDBMS>
+<ownerDesignName>constr</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>BBA9080A-09B2-CE45-34E4-BDFF8C286CB2</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4165786-8B11-4B15-FFB2-F25B9A6BB4F6" referredColumn="BBA9080A-09B2-CE45-34E4-BDFF8C286CB2"/>
+</associations>
+</Column>
+<Column name="IDParent" id="B7330DB8-060D-897D-9BB6-6CF3878473BA">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:58:43 UTC</createdTime>
+<commentInRDBMS>Родительский элемент</commentInRDBMS>
+<ownerDesignName>constr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>752CE8C4-AD53-396E-993B-3F089FB776B3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86C52C11-93C0-70C9-232D-CDE4DF501B8E" referredColumn="752CE8C4-AD53-396E-993B-3F089FB776B3"/>
+</associations>
+</Column>
+<Column name="IDObjView" id="9B71F8A5-713B-B80D-04D9-4A3F3D675B62">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:58:43 UTC</createdTime>
+<commentInRDBMS>Представление</commentInRDBMS>
+<ownerDesignName>constr</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>549E1C53-DE08-F8FF-A3B1-1A136854D27B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5836ACA1-6928-B32F-C61C-C4AE10341575" referredColumn="549E1C53-DE08-F8FF-A3B1-1A136854D27B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1146EEC2-BC1B-040C-4468-2D8BD547D483" name="MD_ObjFrmView_PK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:59:17 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="752CE8C4-AD53-396E-993B-3F089FB776B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E2D5F11-7727-EC72-C399-68093083AF49" name="MD_ObjFrmView_MD_OBJFRM_FK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:58:43 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1941398-9BEC-20F0-E411-9AE15B286744"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4183763-9192-7FF7-6A73-650772AB1B87" name="MD_ObjFrmView_SELF_FK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:59:29 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7330DB8-060D-897D-9BB6-6CF3878473BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F1F44BA-95CB-A786-3270-6E534580BD2C" name="MD_ObjFrmView_MD_OBJVIEW_FK">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:59:39 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B71F8A5-713B-B80D-04D9-4A3F3D675B62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

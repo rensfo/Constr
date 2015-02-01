@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MD_MAINMENUACTION" directorySegmentName="seg_0" id="3092B46D-7107-0C9D-4BC8-3C02C1DA6115">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<schemaObject>5512689D-4E0D-4FFA-1088-5283B5C88EEE</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FB51AD76-F872-A7DC-90EF-692A9A9BDCC9</segment>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MD_MAINMENUACT_IDACTTYPE_IDX" id="2E0454AD-ACBD-92BE-85C6-1091FCA91ACC">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:29:30 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MD_MAINMENUACT_IDMM_IDX" id="4DBC2641-3F4D-EF1B-DD32-14236DE9DE06">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:29:30 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MD_MAINMENUACT_CODE_IDX" id="B19FF52A-34DF-8F0A-79C3-296F1A97FA20">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:00:56 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDMAINMENU" id="0FF92C52-9B27-6BE4-9854-28CC02528BC8">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="BCC15DFF-957B-9D53-AB25-B7E6A83BB996">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="C1AEFC95-E3A0-E4DC-7DFA-28C212692B7E">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="CFBAA6FD-2B92-3529-BF42-F99B0EF86422">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDACTIONTYPE" id="FCD57CA2-CDF9-C23C-4BD6-DF2B1221AEB1">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<defaultValue>(null)</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MD_MAINMENUACT_MD_MMACTTYPE_FK" id="16DA595E-C302-DBC5-9D7F-4CC3E525E11F">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:01:34 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MD_MAINMENUACT_MD_MM_FK" id="608EBF01-E541-4288-CDF9-3FF0A74869EF">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:01:21 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MD_MAINMENUACTION_PK" id="A4825AF6-00E5-405D-CF75-9AD9945F016D">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:00:00 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="MD_MAINMENUACTION_CODE_UN" id="05A032AD-F6DB-60C8-588F-0F1F15D4D8AE">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:00:19 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

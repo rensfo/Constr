@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MD_OBJFRM" directorySegmentName="seg_0" id="D9FB76CF-7155-B794-87B4-8E2D67F3678A">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:21:45 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MD_OBJFRM_CODE_IDX" id="7537D9D9-52D3-E478-3EC3-C86A8945EA16">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:26:07 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDObjVIew" id="078536B5-770B-AF56-87D2-CB6F6D29C4E8">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 13:47:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Name" id="349A5166-C4FA-8577-4847-D7BFF97AE312">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:24:46 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IsCatalogVisible" id="3B2A4D95-9382-D195-6416-6321E223D764">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:32:51 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDObj" id="78488C32-7064-98A9-7CED-9FE354404717">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:24:46 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Code" id="AD9B8D50-8766-19CA-5AB7-3B95701B7AE8">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:24:46 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="BBA9080A-09B2-CE45-34E4-BDFF8C286CB2">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:24:46 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MD_OBJFRM_MD_OBJ_FK" id="CC7766E8-7F43-DD8B-B9AD-660D16DD663A">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:25:18 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MD_OBJFRM_MD_OBJVIEW_FK" id="FDEE6608-5341-E613-09EF-1EE5A051234A">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 13:48:17 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MD_OBJFRM_PK" id="636A28C6-E63D-CE5B-91BC-9AD4C0DAA72A">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:25:18 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="MD_OBJFRM_CODE_UN" id="57D64033-1092-6E02-ADC2-5A8AB1027A59">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-20 12:25:18 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

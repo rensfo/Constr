@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MD_TABLE" directorySegmentName="seg_0" id="A82ED748-2101-4897-240E-291933468ABE">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<schemaObject>5512689D-4E0D-4FFA-1088-5283B5C88EEE</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FB51AD76-F872-A7DC-90EF-692A9A9BDCC9</segment>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MD_TABLE_IDTABLECATALOG_IDX" id="183B8FBC-5DB3-C148-DBFE-217643D00530">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:27:57 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MD_TABLE_CODE_IDX" id="222A53D5-A885-BA52-AFF2-13C05FD09B08">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:27:23 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MD_TABLE_IDCATALOG_IDX" id="9D517B26-D104-4A4D-0B30-0A4955A14E6C">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:27:57 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MD_TABLE_IDPARENT_IDX" id="C9B18F0C-C57B-6F63-D22E-51ABBF9E18AF">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 11:27:13 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<tableSpace>A9DF1EA8-33E1-8584-841F-D1A9BCFD2550</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="09B95109-DAB7-8BDF-06B7-4A48B29C6EDF">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDTABLECATALOG" id="1C612C15-8BF6-35D9-99C7-8912AF15ECBB">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDCATALOG" id="4E691D04-83EC-570B-EE42-6B6247B2281B">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="54F1D22E-8FEE-639E-2F32-E99A808C449E">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDPARENT" id="779B2204-8102-1E0C-F3AA-3D615D1CCF4D">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HAVECATALOG" id="7CD098C4-8A82-DC62-41E8-BDC1BD515996">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="F83B598E-FDFA-C62E-F99E-62216CE96E90">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 09:37:15 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MD_TABLE_STD_CATALOG_TABLECATALOG_FK" id="09842462-F67A-64D0-29D8-943853D63C56">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:09:06 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MD_TABLE_STD_CATALOG_FK" id="CAD9DDAF-8AF7-60FD-3007-07BC9C66CE75">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:09:06 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MD_TABLE_MD_TABLE_FK" id="EC47873D-9961-EC48-4297-E44789DBCB59">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:05:40 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MD_TABLE_PK" id="F8E6839D-FD14-7DDD-E59E-571B072FFD90">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:04:57 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="MD_TABLE_CODE_UN" id="CDE38E96-9309-94AA-99E6-4B6495CACA71">
+<createdBy>sokuncev</createdBy>
+<createdTime>2015-01-19 10:05:12 UTC</createdTime>
+<ownerDesignName>constr</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>
